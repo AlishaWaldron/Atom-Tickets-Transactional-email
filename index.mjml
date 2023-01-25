@@ -1,0 +1,409 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-attributes >
+    <mj-all font-family="Helvetica Neue,Helvetica,Arial,sans-serif">
+     <mj-section padding="0">
+    </mj-attributes>
+    
+    <mj-title>Atom Tickets</mj-title>
+    <mj-style> *{ box-sizing: border-box; } 
+  
+
+    </mj-style>
+
+    <mj-style inline="inline"> 
+    .link-color 
+    { color: #000; 
+      text-decoration: none;
+     
+    } 
+    
+    .blue-link-color{
+      color:#51b9f5;
+      text-decoration: none;
+    }
+
+   
+    
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#ffffff">
+      <mj-raw>
+      <div style="display: none; max-height: 0px; overflow: hidden;">
+      Atom Order Confirmation&nbsp; Now playing Coming doon 
+      See you at the movie
+      </div>
+ 
+      <!-- Insert &#847;&zwnj;&nbsp; hack after hidden preview text -->
+      <div style="display: none; max-height: 0px; overflow: hidden;">
+      &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+      </div>
+      </mj-raw>
+
+    <mj-section>
+      <mj-column width="25%" vertical-align="middle" 
+     >
+        <mj-image
+          src="https://i.postimg.cc/RZVPrmVb/atom-logo.jpg"
+          alt="atom-logo"
+          padding-bottom="0px"
+          padding-top="10px"
+          target="_blank"
+          href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
+        ></mj-image>
+      </mj-column>
+
+      <mj-column width="50%" vertical-align="middle" >
+        <mj-text align="center" padding-bottom="0px" padding-top="10px">
+        <a
+            href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
+            style="text-decoration: none;font-size: 15px; font-weight: 500;" 
+            class="link-color" target="_blank"
+            >NOW PLAYING</a>
+            &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a
+            href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
+            style="text-decoration: none; font-size: 15px;" 
+            class="link-color" target="_blank"
+            >COMING SOON</a
+          >
+        </mj-text>
+      </mj-column>
+      
+      <mj-column width="25%" vertical-align="middle" 
+     >
+        <mj-image
+          src="https://i.postimg.cc/76791Ymb/get-the-app-text.jpg"
+          alt="get-the-app-text"
+          padding-bottom="0px"
+          padding-top="10px"
+          target="_blank"
+          href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
+        ></mj-image>
+      </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#000000" padding-bottom="10px">
+      <mj-column>
+      <mj-text color="#51b9f5" font-size="40px" padding-bottom="5px" font-weight="600" align="center">
+      SEE YOU AT THE MOVIE
+      </mj-text>
+
+      <mj-text color="#ffffff" font-size="22px" font-weight="500" align="center">
+      Thanks for you order! Here's your ticket info.
+      </mj-text>
+      </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#000000" padding-top="0" padding-bottom="0">
+      <mj-column>
+      <mj-image src="https://i.postimg.cc/rsN9bZ6k/blackpanter-ticket.png"
+      width="500px" align="center" alt="black-panter-movie">
+      </mj-image>
+      </mj-section>
+
+
+      <mj-section background-color="#000000" padding-top="0" padding-bottom="0">
+      <mj-column>
+      <mj-text>
+      <p style="color: #ffffff; text-align: center;font-size: 20px; 
+       line-height: 25px">Ticket ID: 4580:0101775569<br>
+     Confirmation # WGSJCK8</p>
+      </mj-text>
+      </mj-section>
+
+      <mj-section background-color="#000000" padding-top="0" padding-bottom="0">
+      <mj-column>
+      <mj-text align="center" padding-top="0">
+
+      <span style="color: #51b9f5;font-size: 20px; 
+       line-height: 25px; padding-top: 10px; font-weight: 700">
+       Black Panther: Wakanda 
+       Forever  <span style="color: #ffffff">at</span> Linden Boulevard Multiplex Cinemas 
+       <span style="color: #ffffff">for</span> 11/12/2022</span>
+      </mj-text>
+      </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#000000" padding-top="0" padding-bottom="0">
+      <mj-group>
+       <mj-column  vertical-align="middle" width="100%">
+        <mj-text align="center" padding-top="10px"
+        color="#ffffff">
+        <p style="font-size: 22px; padding-bottom: 15px;">01:45 PM
+           &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+           
+           &#xA0; &#xA0;Screen 1&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+           &#xA0;&#xA0;
+            Seats P13, P12</p>
+
+            <p  style="font-size: 25px; font-weight: 600;  padding-bottom: 20px
+            ">Add to Calendar</p>
+
+
+             <a
+            href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Black+Panther:+Wakanda+Forever+at+Linden+Boulevard+Multiplex+Cinemas&dates=20221112T134500/20221112T164500&location=2784+Linden+Boulevard,+Brooklyn,+NY+11208&pli=1"
+            style="text-decoration: underline;font-size: 20px; font-weight: 500;" class="blue-link-color"
+            target="_blank">Google</a>
+           &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a
+            href="https://outlook.live.com/owa/"
+            style="text-decoration: underline; font-size: 20px;font-weight: 500" class="blue-link-color"
+            target="_blank">Outlook</a>
+          &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a
+            href="https://www.icloud.com/calendar"
+            style="text-decoration: underline; font-size:20px;font-weight: 500" class="blue-link-color"
+            target="_blank">iCal</a>
+            &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a
+            href="https://www.yahoo.com/calendar"
+            style="text-decoration: underline; font-size: 20px; font-weight: 500;" class="blue-link-color"
+           target="_blank">Yahoo</a><br>
+
+          
+        </mj-text>
+      </mj-column> 
+      </mj-group>
+      </mj-section>
+
+        <mj-section background-color="#000000" padding-top="10px" >
+          <mj-column> 
+         <mj-button background-color="#000000" border="2px solid #51b9f5"
+          font-size="17px" font-weight="600" border-radius="5px"inner-padding="18px 40px"
+          padding-bottom="25px"
+         
+          
+          href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1" 
+          target="_blank">VIEW DETAILS</mj-button> 
+          </mj-column>
+        </mj-section>
+
+        <mj-raw>
+        <!--blue border button ends-->
+        </mj-raw>
+      
+        
+        <mj-section background-color= "#000000" border-top="5px solid white">
+        <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="20px" font-weight="700">
+        YOUR ORDER
+        </mj-text>
+        </mj-column>
+        </mj-section>
+
+         <mj-raw>
+        <!--blue border button ends-->
+        </mj-raw>
+      
+        <mj-section
+      background-color="#000000"
+      padding-top="0"
+      padding-bottom="0">
+    
+    <mj-group>
+      <mj-column>
+        <mj-text color="#ffffff" font-size="22px"> General Reserved<br>
+        Seat: P12 </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-text font-size="22px" color="#ffffff" align="right"> $12.00</mj-text>
+        </mj-group>
+      </mj-column>
+    </mj-section>
+
+        <mj-section
+      background-color="#000000"
+      padding-top="0"
+      padding-bottom="5px">
+    
+    <mj-group>
+      <mj-column>
+        <mj-text color="#ffffff" font-size="23px"> General Reserved<br>
+        Seat: P13 </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-text font-size="22px" color="#ffffff"align="right"> $12.00</mj-text>
+        </mj-group>
+      </mj-column>
+    </mj-section> 
+    
+    <mj-section background-color="#000000" padding-top="0">
+      <mj-column>
+        <mj-divider border-width="3px" border-style="solid" border-color="#ffffff" />
+      </mj-column>
+    </mj-section>
+    
+     <mj-section
+      background-color="#000000"
+      padding-top="0"
+      
+      padding-bottom="0">
+    
+    <mj-group>
+      <mj-column>
+        <mj-text color="#ffffff" font-size="22px"> Subtotal </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-text font-size="22px" color="#ffffff" align="right"> $24.00</mj-text>
+        </mj-group>
+      </mj-column>
+    </mj-section> 
+    
+    
+     <mj-section
+      background-color="#000000"
+      padding-top="0"
+      padding-bottom="5px">
+    
+    <mj-group>
+      <mj-column>
+        <mj-text color="#ffffff" font-size="22px"> Convenience Fee	</mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-text font-size="22px" color="#ffffff" align="right"> $3.78
+        </mj-text>
+        </mj-group>
+      </mj-column>
+    </mj-section> 
+    
+    <mj-section background-color="#000000" padding-top="0" padding-bottom="8px">
+      <mj-column>
+        <mj-divider border-width="3px" border-style="solid" border-color="#ffffff" />
+      </mj-column>
+    </mj-section>
+    
+    <mj-section
+      background-color="#000000"
+      padding-top="0"
+      padding-bottom="0">
+    
+    <mj-group>
+      <mj-column>
+        <mj-text color="#ffffff" font-size="22px"> Your Total	 </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-text font-size="22px" color="#ffffff" align="right" 
+        padding-bottom="35px"> $27.78</mj-text>
+        </mj-group>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+    <!--order prices end-->
+    </mj-raw>
+
+    <mj-section background-color="#ffffff" padding-top="30px" padding-bottom="0"> 
+    <mj-column>
+    <mj-text align="center" font-size="30px" font-weight="600" padding-bottom="0">
+    DOWNLOAD THE APP NOW
+    </mj-text>
+    </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0" padding-bottom="15px"> 
+   <mj-group>
+    <mj-column>
+    <mj-image src="https://i.postimg.cc/wjfwgr1x/app-store.png" alt="app-store-logo" width="200px"
+     align="right" padding-right="13px" target="_blank" href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
+     >
+   
+    </mj-image>
+    </mj-column>
+    <mj-column>
+    <mj-image src="https://i.postimg.cc/W4xSJJmQ/google-play.png"  alt="google-play-logo" width="200px" 
+    align="left" padding-left="13px" target="_blank" 
+    href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1">
+   
+    </mj-image>
+    </mj-column>    
+    </mj-group>
+    </mj-section>
+    <mj-raw>
+    <!--two button end here-->
+    </mj-raw>
+
+    <mj-section background-color="#000000" padding-top="0"> 
+    <mj-column>
+    <mj-image src="https://i.postimg.cc/wxXF7M1G/movies-logo.jpg" align="center"
+    width="600px" padding-left="0" padding-right="0" padding-bottom="25px" alt="movies-screens"
+    padding-top="0">
+    </mj-image>
+
+    <mj-text align="center" font-size="30px" color="#51b9f5" font-weight="600">
+    GIVE THE GIFT OF MOVIES
+    </mj-text>
+
+    <mj-text color="#ffffff" font-size="17px" align="center"  padding-bottom="25px"
+    padding-top="22px">
+    Treat someone to a VIP movie experience with an Atom gift card!
+    </mj-text>
+    
+    
+    <mj-button background-color="#51b9f5"
+          font-size="17px" font-weight="600" border-radius="5px"inner-padding="19px 70px"
+          padding-bottom="15px" target="_blank"
+          href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1" 
+          >BUY NOW</mj-button> 
+    </mj-column>
+    </mj-section>
+
+     <mj-section background-color="#000000" padding-top="0"
+      border-top="5px solid white" padding-bottom="0"> 
+      <mj-column>
+      <mj-text color="#ffffff" padding-top="40px" 
+      font-size="25px" font-weight="600" padding-left="20px" padding-right="0px">
+        STAY IN THE LOOP
+      </mj-text>
+      </mj-column>
+      
+      <mj-column>
+        <mj-social padding-top="20px" padding-bottom="25px" align="right" >
+          <mj-social-element  
+          src="https://i.postimg.cc/zfy0BkhC/facebook.png"alt="facebook-logo" 
+          icon-size="42px" padding="10px" name="facebook" border-radius="50px" 
+          target="_blank" href="https://www.facebook.com/atomtickets"></mj-social-element>
+          <mj-social-element 
+          src="https://i.postimg.cc/tRWCZ888/instagram.png" alt="instagram-logo" icon-size="42px"
+          padding="10px"target="_blank" name="instagram" border-radius="50px" 
+          href="https://www.facebook.com/atomtickets"></mj-social-element>
+          <mj-social-element
+          src="https://i.postimg.cc/NfQDTtTf/twitter.png"  alt="twitter-logo" icon-size="42px"
+          padding="10px" target="_blank" name="twitter" border-radius="50px" href="https://twitter.com/atomtickets/"></mj-social-element>
+        </mj-social>
+      </mj-column>
+      </mj-section>
+
+
+     <mj-section background-color="#ffffff" padding-top="70px" padding-bottom="40px"> 
+     
+      <mj-column>
+      <mj-text align="center" padding-bottom="4px"font-size="12px" >
+        This e-mail was sent to <a href="https://mail.yahoo.com/d/compose" class="blue-link-color"> Janejoe@yahoo.com</a>
+      </mj-text>
+      <mj-text align="center" padding-top="0" padding-bottom="4px" font-size="12px">
+      If you need help or have questions, please contact
+      <a href="https://mail.yahoo.com/d/compose" class="blue-link-color"> Atom Customer Service.</a>
+      </mj-text>
+      <mj-text align="center" padding-top="0" padding-bottom="4px" font-size="12px">
+      You consented to receiving these useful emails when you signed up with Atom Tickets.
+      </mj-text>
+      <mj-text align="center"padding-top="0" padding-bottom="4px"font-size="12px">
+        If you'd rather not see these emails in your inbox, you can
+        <a href="https://mail.yahoo.com/d/compose" class="blue-link-color"> unsubscribe.</a>
+      </mj-text>
+      <mj-text align="center"padding-top="0" padding-bottom="4px" font-size="12px">
+      © 2022 Atom Tickets, LLC, 2700 Colorado Ave. 4th Floor, Santa Monica, CA 90404. All rights reserved.
+      </mj-text>
+      <mj-text align="center"padding-top="0" padding-bottom="4px">
+      <a href="https://mail.yahoo.com/d/compose" class="blue-link-color">Terms of Use </a>| 
+      <a href="https://mail.yahoo.com/d/compose" class="blue-link-color"> Privacy Policy</a></mj-text>
+      </mj-column>
+      
+      </mj-section>
+    
+    
+  </mj-body>
+</mjml>
