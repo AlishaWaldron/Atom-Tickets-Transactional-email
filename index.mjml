@@ -7,8 +7,7 @@
     
     <mj-title>Atom Tickets</mj-title>
     <mj-style> *{ box-sizing: border-box; } 
-  
-
+ 
     </mj-style>
 
     <mj-style inline="inline"> 
@@ -21,7 +20,8 @@
     .blue-link-color{
       color:#51b9f5;
       text-decoration: none;
-    }
+    } 
+    
 
    
     
@@ -29,9 +29,10 @@
   </mj-head>
 
   <mj-body background-color="#ffffff">
+  <mj-wrapper padding-top="30px" padding-bottom="30px">
       <mj-raw>
       <div style="display: none; max-height: 0px; overflow: hidden;">
-      Atom Order Confirmation&nbsp; Now playing Coming doon 
+      Atom Order Confirmation&nbsp; Now playing Coming Soon 
       See you at the movie
       </div>
  
@@ -41,9 +42,9 @@
       </div>
       </mj-raw>
 
+     <!--START OF HEADER LOGO -->
     <mj-section>
-      <mj-column width="25%" vertical-align="middle" 
-     >
+      <mj-column width="25%" vertical-align="middle">
         <mj-image
           src="https://i.postimg.cc/RZVPrmVb/atom-logo.jpg"
           alt="atom-logo"
@@ -58,20 +59,19 @@
         <mj-text align="center" padding-bottom="0px" padding-top="10px">
         <a
             href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
-            style="text-decoration: none;font-size: 15px; font-weight: 500;" 
+            style="text-decoration: none;font-size: 14px; " 
             class="link-color" target="_blank"
             >NOW PLAYING</a>
             &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a
             href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
-            style="text-decoration: none; font-size: 15px;" 
+            style="text-decoration: none; font-size: 14px; " 
             class="link-color" target="_blank"
             >COMING SOON</a
           >
         </mj-text>
       </mj-column>
       
-      <mj-column width="25%" vertical-align="middle" 
-     >
+      <mj-column width="25%" vertical-align="middle">
         <mj-image
           src="https://i.postimg.cc/76791Ymb/get-the-app-text.jpg"
           alt="get-the-app-text"
@@ -81,8 +81,11 @@
           href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
         ></mj-image>
       </mj-column>
-      </mj-section>
+      </mj-section>      
+      <!--END OF HEADER LOGO -->
 
+
+      <!--START OF HEADER TITLE -->
       <mj-section background-color="#000000" padding-bottom="10px">
       <mj-column>
       <mj-text color="#51b9f5" font-size="40px" padding-bottom="5px" font-weight="600" align="center">
@@ -93,17 +96,20 @@
       Thanks for you order! Here's your ticket info.
       </mj-text>
       </mj-column>
-      </mj-section>
+      </mj-section>      
+      <!--END OF HEADER TITLE -->
 
 
+      <!--START OF BLACK PANTHER WAKANDA FOREVER IMAGE WITH BARCODE -->
       <mj-section background-color="#000000" padding-top="0" padding-bottom="0">
-      <mj-column>
+      <mj-column width="100%">
       <mj-image src="https://i.postimg.cc/rsN9bZ6k/blackpanter-ticket.png"
       width="500px" align="center" alt="black-panter-movie">
       </mj-image>
       </mj-section>
+      <!--END OF BLACK PANTHER WAKANDA FOREVER IMAGE WITH BARCODE -->
 
-
+        <!--START OF TICKET ID & CONFORMATION -->
       <mj-section background-color="#000000" padding-top="0" padding-bottom="0">
       <mj-column>
       <mj-text>
@@ -112,7 +118,9 @@
      Confirmation # WGSJCK8</p>
       </mj-text>
       </mj-section>
+      <!--END OF TICKET ID & CONFORMATION -->
 
+        <!--START OF THEATER ADDRESS -->
       <mj-section background-color="#000000" padding-top="0" padding-bottom="0">
       <mj-column>
       <mj-text align="center" padding-top="0">
@@ -124,8 +132,11 @@
        <span style="color: #ffffff">for</span> 11/12/2022</span>
       </mj-text>
       </mj-column>
-      </mj-section>
+      </mj-section> 
+      <!--END OF THEATER ADDRESS -->
 
+
+          <!--START OF ORDER TIME DETAILS WITH BLUE BORDER BUTTON -->
       <mj-section background-color="#000000" padding-top="0" padding-bottom="0">
       <mj-group>
        <mj-column  vertical-align="middle" width="100%">
@@ -136,7 +147,8 @@
            
            &#xA0; &#xA0;Screen 1&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
            &#xA0;&#xA0;
-            Seats P13, P12</p>
+            Seats P13, P12</p>      
+           
 
             <p  style="font-size: 25px; font-weight: 600;  padding-bottom: 20px
             ">Add to Calendar</p>
@@ -158,13 +170,13 @@
             href="https://www.yahoo.com/calendar"
             style="text-decoration: underline; font-size: 20px; font-weight: 500;" class="blue-link-color"
            target="_blank">Yahoo</a><br>
-
-          
         </mj-text>
       </mj-column> 
-      </mj-group>
+         </mj-group>
       </mj-section>
+      <!--END OF ORDER TIME DETAILS WITH BLUE BORDER BUTTON -->
 
+           <!--START OF VIEW DETAILS BUTTON-->
         <mj-section background-color="#000000" padding-top="10px" >
           <mj-column> 
          <mj-button background-color="#000000" border="2px solid #51b9f5"
@@ -176,12 +188,10 @@
           target="_blank">VIEW DETAILS</mj-button> 
           </mj-column>
         </mj-section>
-
-        <mj-raw>
-        <!--blue border button ends-->
-        </mj-raw>
-      
+        <!--END OF VIEW DETAILS BUTTON-->
         
+      
+         <!--END OF YOUR ORDER PRICE COLUMN-->
         <mj-section background-color= "#000000" border-top="5px solid white">
         <mj-column>
         <mj-text align="center" color="#ffffff" font-size="20px" font-weight="700">
@@ -190,9 +200,6 @@
         </mj-column>
         </mj-section>
 
-         <mj-raw>
-        <!--blue border button ends-->
-        </mj-raw>
       
         <mj-section
       background-color="#000000"
@@ -227,6 +234,7 @@
         </mj-group>
       </mj-column>
     </mj-section> 
+    
     
     <mj-section background-color="#000000" padding-top="0">
       <mj-column>
@@ -291,29 +299,37 @@
         </mj-group>
       </mj-column>
     </mj-section>
-    <mj-raw>
-    <!--order prices end-->
-    </mj-raw>
+    
+    <!--END OF YOUR ORDER PRICE COLUMN-->
+  
 
+     <!--START OF DOWNLOAD TEXT-->
     <mj-section background-color="#ffffff" padding-top="30px" padding-bottom="0"> 
-    <mj-column>
+    <mj-column >
     <mj-text align="center" font-size="30px" font-weight="600" padding-bottom="0">
     DOWNLOAD THE APP NOW
     </mj-text>
     </mj-column>
-    </mj-section>
+    </mj-section> 
+     <!--END OF DOWNLOAD TEXT-->
 
+
+       <!--START OF APP BUTTON-->
     <mj-section background-color="#ffffff" padding-top="0" padding-bottom="15px"> 
    <mj-group>
-    <mj-column>
-    <mj-image src="https://i.postimg.cc/wjfwgr1x/app-store.png" alt="app-store-logo" width="200px"
-     align="right" padding-right="13px" target="_blank" href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
+    <mj-column width="50%">
+    <mj-image src="https://i.postimg.cc/wjfwgr1x/app-store.png" 
+    alt="app-store-logo" width="180px"
+     align="right" padding-right="13px" target="_blank" 
+     href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1"
      >
    
     </mj-image>
     </mj-column>
-    <mj-column>
-    <mj-image src="https://i.postimg.cc/W4xSJJmQ/google-play.png"  alt="google-play-logo" width="200px" 
+
+    <mj-column width="50%" >
+    <mj-image src="https://i.postimg.cc/W4xSJJmQ/google-play.png"  
+    alt="google-play-logo" width="180px" 
     align="left" padding-left="13px" target="_blank" 
     href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1">
    
@@ -321,12 +337,12 @@
     </mj-column>    
     </mj-group>
     </mj-section>
-    <mj-raw>
-    <!--two button end here-->
-    </mj-raw>
+    <!--END OF APP BUTTON-->
 
+   
+    <!--START OF IMAGE TEXT & BUY NOW BUTTON-->
     <mj-section background-color="#000000" padding-top="0"> 
-    <mj-column>
+    <mj-column width="100%">
     <mj-image src="https://i.postimg.cc/wxXF7M1G/movies-logo.jpg" align="center"
     width="600px" padding-left="0" padding-right="0" padding-bottom="25px" alt="movies-screens"
     padding-top="0">
@@ -341,17 +357,27 @@
     Treat someone to a VIP movie experience with an Atom gift card!
     </mj-text>
     
-    
     <mj-button background-color="#51b9f5"
           font-size="17px" font-weight="600" border-radius="5px"inner-padding="19px 70px"
           padding-bottom="15px" target="_blank"
           href="https://play.google.com/store/apps/details?id=org.gamatech.androidclient.app&pli=1" 
           >BUY NOW</mj-button> 
     </mj-column>
-    </mj-section>
+    </mj-section>   
+     <!-- END OF IMAGE TEXT & BUY NOW BUTTON-->
 
+          <!--start OF WHITE BORDER-->
+        <mj-section padding-bottom="0" padding-top="0">
+      <mj-column>
+        <mj-divider border-width="6px" border-style="solid" padding-top="0" padding-bottom="0"
+        border-color="#ffffff" />
+      </mj-column>
+    </mj-section>
+    <!-- END OF WHITE BORDER-->
+
+      <!--START OF TEXT WITH SOCIAL ICON-->
      <mj-section background-color="#000000" padding-top="0"
-      border-top="5px solid white" padding-bottom="0"> 
+       padding-bottom="0"> 
       <mj-column>
       <mj-text color="#ffffff" padding-top="40px" 
       font-size="25px" font-weight="600" padding-left="20px" padding-right="0px">
@@ -359,24 +385,30 @@
       </mj-text>
       </mj-column>
       
-      <mj-column>
-        <mj-social padding-top="20px" padding-bottom="25px" align="right" >
+      <mj-column  background-color="#000000">
+        <mj-social padding-top="20px" padding-bottom="25px" align="right" icon-size="42px"
+        mode="horizontal" border-radius="50px">
           <mj-social-element  
           src="https://i.postimg.cc/zfy0BkhC/facebook.png"alt="facebook-logo" 
-          icon-size="42px" padding="10px" name="facebook" border-radius="50px" 
-          target="_blank" href="https://www.facebook.com/atomtickets"></mj-social-element>
+           padding="10px" name="facebook" 
+          target="_blank" href="https://www.facebook.com/atomtickets">
+          </mj-social-element>
+
           <mj-social-element 
-          src="https://i.postimg.cc/tRWCZ888/instagram.png" alt="instagram-logo" icon-size="42px"
-          padding="10px"target="_blank" name="instagram" border-radius="50px" 
-          href="https://www.facebook.com/atomtickets"></mj-social-element>
+          src="https://i.postimg.cc/tRWCZ888/instagram.png" alt="instagram-logo" 
+          padding="10px"target="_blank" name="instagram" 
+          href="https://www.facebook.com/atomtickets">
+          </mj-social-element>
+
           <mj-social-element
-          src="https://i.postimg.cc/NfQDTtTf/twitter.png"  alt="twitter-logo" icon-size="42px"
-          padding="10px" target="_blank" name="twitter" border-radius="50px" href="https://twitter.com/atomtickets/"></mj-social-element>
+          src="https://i.postimg.cc/NfQDTtTf/twitter.png"  alt="twitter-logo" 
+          padding="10px" target="_blank" name="twitter"  href="https://twitter.com/atomtickets/"></mj-social-element>
         </mj-social>
       </mj-column>
       </mj-section>
+  <!--END OF TEXT WITH SOCIAL ICON-->
 
-
+     <!--START OF FOOTER-->
      <mj-section background-color="#ffffff" padding-top="70px" padding-bottom="40px"> 
      
       <mj-column>
@@ -401,9 +433,9 @@
       <a href="https://mail.yahoo.com/d/compose" class="blue-link-color">Terms of Use </a>| 
       <a href="https://mail.yahoo.com/d/compose" class="blue-link-color"> Privacy Policy</a></mj-text>
       </mj-column>
-      
       </mj-section>
-    
-    
+    <!--END OF FOOTER-->
+    </mj-wrapper>
+    <!--END OF CONTAINER-->
   </mj-body>
 </mjml>
